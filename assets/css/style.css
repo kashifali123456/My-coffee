@@ -8,25 +8,21 @@
     
     .header {
         background-color: rgb(245, 192, 155);
+        font-size: 22px;
     }
     
     .navbar {
         display: flex;
-        padding: 2% 6%;
+        padding: 30px 60px 0px 60px;
         justify-content: space-between;
         align-items: center;
         font-size: 22px;
-        position: relative;
-    }
-    
-    .logo {
-        width: 150px;
     }
     
     .logo a {
         text-decoration: none;
         color: white;
-        font-size: 20px;
+        font-size: 26px;
     }
     
     .ul {
@@ -35,63 +31,28 @@
     }
     
     .ul a {
-        list-style: none;
-        display: inline-block;
         padding: 0px 20px;
-        position: relative;
         text-decoration: none;
         color: #fff;
     }
     
     .wellcome {
-        padding-left: 130px;
         display: flex;
-        padding: 2% 6%;
+        padding: 20px 260px 10px 60px;
         justify-content: space-between;
-        align-items: center;
-        position: relative;
-    }
-    
-    .wellcome a {
-        display: flex;
-        direction: column;
-        box-sizing: 200px;
-        border-radius: 50%;
-        border: 1px solid #fff;
-        border-style: solid;
-        border: circle;
-        background-color: #fff;
-        color: black;
-        text-decoration: none;
         align-items: center;
     }
     
     .w1 {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        font-size: 0px;
-        text-decoration: none;
-        background-color: rgb(245, 192, 155);
     }
     
-    .fa-chevron-circle-left {
+    .fa {
         font-size: 45px;
         background-color: rgb(245, 192, 155);
         color: #fff;
         padding-bottom: 10px;
-    }
-    
-    .fa-chevron-circle-right {
-        font-size: 45px;
-        background-color: rgb(245, 192, 155);
-        color: #fff;
-        padding-top: 10px;
-    }
-    
-    .wellcome h1 {
-        color: #fff;
-        font-size: 44px;
     }
     
     .wellcome p {
@@ -104,20 +65,11 @@
     }
     
     .btn button {
-        list-style-type: none;
-        padding: 8px 35px;
         background-color: white;
-        box-shadow: #fff;
-        border-color: #fff;
         border-radius: 3px;
         color: rgb(230, 111, 111);
-    }
-    
-    .image {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-right: 215px;
+        width: 142px;
+        height: 40px;
     }
     
     .image1 {
@@ -132,36 +84,21 @@
         justify-content: space-between;
     }
     
-    .fa-ellipsis-h {
-        color: #fff;
-        font-size: 60px;
-    }
-    
     .product {
         background-color: #fff;
-        margin: auto;
+        padding: 5px 0px 13px 0px;
         text-align: center;
         color: rgb(223, 54, 54);
-        padding-top: 5px;
-        padding-bottom: 13px;
     }
     
-    .product h1 {
-        font-size: 47px;
-    }
-    
-    .product p {
+    p {
         color: black;
         font-size: 14px;
-        font-weight: bold;
     }
+    /*---images---*/
     
-    .espresso {
-        padding-left: 20px;
-        padding-right: 20px;
-        align-items: center;
-        padding-bottom: 36px;
-        height: 350px;
+    .nav-espresso {
+        padding: 0px 20px 15px 20px;
     }
     
     .nav-image {
@@ -170,566 +107,49 @@
         align-items: center;
         font-size: 16px;
         justify-content: space-between;
-        font-weight: bold;
-        position: relative;
-        padding-top: 142px;
     }
     
     .nav-image a {
         font-size: 0px;
     }
     
-    .image2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 100px;
-    }
-    
-    .image2 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price2 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label2 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label2 label {
-        width: 100px;
-        height: 30px;
+    img {
+        width: 260px;
+        height: 225px;
         background-color: white;
-        color: black;
     }
     
-    .img2btn {
+    .label-dimensions {
+        display: flex;
+        padding: 5px 0px 0px 83px;
+        justify-content: space-between;
+    }
+    
+    label {
+        width: 100px;
+        height: 25px;
         padding-top: 6px;
-        padding-right: 6px;
+        background-color: white;
     }
     
-    .image2 button {
+    .imgbtn {
+        padding: 6px 0px 0px 8px;
+    }
+    
+    button {
         width: 80px;
         height: 24px;
         background-color: #fff;
         border: white;
         color: rgb(230, 111, 111);
         font-weight: bold;
-    }
-    
-    .image3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 456px;
-    }
-    
-    .image3 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price3 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label3 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label3 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img3btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image3 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image4 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 805px;
-    }
-    
-    .image4 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price4 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-    }
-    
-    .label4 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label4 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img4btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image4 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image5 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 1148px;
-    }
-    
-    .image5 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price5 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label5 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label5 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img5btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image5 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .empty-cells1 {
-        background-color: #fff;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    .non-expresso {
-        padding-left: 20px;
-        padding-right: 20px;
-        align-items: center;
-        padding-bottom: 36px;
-        height: 350px;
-    }
-    
-    .non-expresso h2 {
-        font-size: 25px;
-    }
-    
-    .navnon {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        font-size: 16px;
-        font-weight: bold;
-        justify-content: space-between;
-        position: relative;
-        padding-top: 142px;
-    }
-    
-    .navnon a {
-        font-size: 0px;
-    }
-    
-    .image6 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 100px;
-    }
-    
-    .image6 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price6 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label6 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label6 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img6btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image6 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image7 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 456px;
-    }
-    
-    .image7 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price7 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label7 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label7 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img7btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image7 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image8 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 805px;
-    }
-    
-    .image8 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price8 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label8 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label8 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img8btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image8 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image9 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 1148px;
-    }
-    
-    .image9 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price9 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label9 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label9 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img9btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image9 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .empty-cells2 {
-        background-color: #fff;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    .tea {
-        padding-left: 20px;
-        padding-right: 20px;
-        align-items: center;
-        padding-bottom: 34px;
-        height: 324px;
     }
     
     .navtea {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        font-size: 16px;
-        font-weight: bold;
-        justify-content: space-between;
-        padding-left: 110px;
-        padding-right: 110px;
-        position: relative;
+        padding: 0px 150px;
     }
     
-    .image10 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        top: -7px;
-        left: 164px;
-    }
-    
-    .image10 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price10 {
+    .price-dimensions {
         position: absolute;
         background-color: #675353;
         color: rgb(230, 111, 111);
@@ -744,420 +164,11 @@
         bottom: 250px;
     }
     
-    .label10 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label10 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img10btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image10 button {
-        width: 80px;
-        height: 24px;
+    .empty-cells {
         background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
+        padding: 10px 0px;
     }
-    
-    .image11 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        top: -7px;
-        left: 623px;
-    }
-    
-    .image11 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price11 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label11 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label11 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img11btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image11 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image12 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        top: -7px;
-        left: 1081px;
-    }
-    
-    .image12 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price12 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label12 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label12 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img12btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image12 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .empty-cells3 {
-        background-color: #fff;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
-    .treat {
-        padding-left: 20px;
-        padding-right: 20px;
-        align-items: center;
-        padding-bottom: 36px;
-        height: 350px;
-    }
-    
-    .navtreat {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        font-size: 16px;
-        font-weight: bold;
-        justify-content: space-between;
-        position: relative;
-        padding-top: 142px;
-    }
-    
-    .navtreat a {
-        font-size: 0px;
-    }
-    
-    .image13 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 100px;
-    }
-    
-    .image13 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price13 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label13 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label13 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img13btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image13 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image14 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 456px;
-    }
-    
-    .image14 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price14 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label14 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label14 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img14btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image14 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image15 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 805px;
-    }
-    
-    .image15 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price15 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label15 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label15 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img15btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image15 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
-    
-    .image16 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        left: 1148px;
-    }
-    
-    .image16 img {
-        width: 256px;
-        height: 238px;
-        background-color: #fff;
-    }
-    
-    .price16 {
-        position: absolute;
-        background-color: #675353;
-        color: rgb(230, 111, 111);
-        width: 93px;
-        height: 63px;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        border-radius: 50%;
-        font-size: 29px;
-        font-weight: bold;
-        right: -10px;
-        bottom: 250px;
-    }
-    
-    .label16 {
-        display: flex;
-        padding-right: 10px;
-        padding-top: 7px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .label16 label {
-        width: 100px;
-        height: 30px;
-        background-color: white;
-        color: black;
-    }
-    
-    .img16btn {
-        padding-top: 6px;
-        padding-right: 6px;
-    }
-    
-    .image16 button {
-        width: 80px;
-        height: 24px;
-        background-color: #fff;
-        border: white;
-        color: rgb(230, 111, 111);
-        font-weight: bold;
-    }
+    /*---------------------------------- next----------------------*/
     
     .About {
         background-color: #fff;
@@ -1238,33 +249,9 @@
         font-size: 30px;
     }
     
-    .poerson {
-        background-color: #fff;
-        padding: 2% 5%;
-    }
-    
     .person {
         align-items: center;
         position: relative;
-    }
-    
-    .navslider {
-        position: relative;
-    }
-    
-    .pericon1 .pericon2 {
-        cursor: pointer;
-        transition: 0.6s ease;
-        user-select: none;
-        font-size: 0px;
-    }
-    
-    .slideimg1 {
-        display: none
-    }
-    
-    img {
-        vertical-align: middle;
     }
     
     .person1 {
@@ -1280,6 +267,8 @@
         background-color: rgb(245, 192, 155);
         width: 1082px;
         height: 297px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     
     .person1 img {
@@ -1287,15 +276,6 @@
         height: 162px;
         border-radius: 50%;
         padding-top: 10px;
-    }
-    
-    .pericon1 {
-        padding-left: 8px;
-        font-size: 0px;
-    }
-    
-    .pericon2 {
-        padding-right: 8px;
     }
     
     .contact {
@@ -1348,20 +328,6 @@
         color: black;
     }
     
-    .reglabel3 {
-        padding-top: 18px;
-        padding-left: 40px;
-        text-decoration: underline;
-        color: black;
-    }
-    
-    .reglabel4 {
-        padding-top: 18px;
-        padding-left: 40px;
-        text-decoration: underline;
-        color: black;
-    }
-    
     .reglabel5 {
         padding-top: 0px;
         padding-left: 163px;
@@ -1372,11 +338,6 @@
         width: 105px;
         background-color: rgb(249, 192, 155);
         border: transparent;
-    }
-    
-    .regimage {
-        width: 350px;
-        height: 300px;
     }
     
     .regimage img {
