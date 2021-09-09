@@ -64,7 +64,7 @@
         padding-right: 396px;
     }
     
-    .btn button {
+    #button1 {
         background-color: white;
         border-radius: 3px;
         color: rgb(230, 111, 111);
@@ -172,86 +172,45 @@
     
     .About {
         background-color: #fff;
-        margin: auto;
         text-align: center;
         color: rgb(223, 54, 54);
-        padding-top: 5px;
-        padding-bottom: 13px;
-    }
-    
-    .About h1 {
-        font-size: 38px;
-    }
-    
-    .About p {
-        color: black;
-        font-size: 14px;
+        padding: 1px 0px 13px 0px;
     }
     
     .ntf {
         display: flex;
         justify-content: space-between;
         color: #fff;
-        padding: 0% 0%;
+        padding: 0px 200px 0px 341px;
     }
     
     .ntfcont {
-        padding-left: 89px;
-        padding-top: 30px;
-        padding-bottom: 46px;
-    }
-    
-    .ntf h1 {
-        font-size: 50px;
-    }
-    
-    .ntf p {
-        font-size: 18px;
+        padding: 70px 0px 0px 0px;
     }
     
     .ntfbtn {
-        padding-left: 196px;
-        padding-top: 32px;
+        padding: 40px 0px 0px 150px;
+        background-color: rgb(245, 192, 155);
     }
     
-    .ntf button {
-        list-style-type: none;
-        background-color: white;
-        border-color: #fff;
-        border-radius: 0px;
-        color: rgb(230, 111, 111);
-        font-size: 1.2em;
-        width: 185px;
-        height: 50px;
+    .nimg {
+        padding: 48px 0px 30px 130px;
     }
     
-    .ntfimage {
-        flex: 1;
-        padding-left: 298px;
-        padding-top: 48px;
-        padding-bottom: 61px;
-    }
-    
-    .ntfimage img {
+    .nimg img {
         width: 360px;
+        height: 354px;
     }
     
     .testmonial {
         background-color: #fff;
-        padding-top: 2px;
-        padding-bottom: 5px;
+        padding: 1px 0px;
         text-align: center;
-        color: black;
-        position: relative;
-    }
-    
-    .testmonial h1 {
-        font-size: 30px;
     }
     
     .person {
-        align-items: center;
-        position: relative;
+        background-color: #fff;
+        padding: 0px 230px;
     }
     
     .person1 {
@@ -259,130 +218,70 @@
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        color: white;
-        position: absolute;
-        font-size: 14px;
-        left: 235px;
-        padding: 0px;
+        padding: 20px;
         background-color: rgb(245, 192, 155);
-        width: 1082px;
-        height: 297px;
-        padding-left: 8px;
-        padding-right: 8px;
     }
     
     .person1 img {
-        width: 205px;
-        height: 162px;
+        width: 190px;
+        height: 160px;
         border-radius: 50%;
-        padding-top: 10px;
     }
     
     .contact {
         background-color: #fff;
-        padding: 2% 5%;
-        margin: auto;
         text-align: center;
-        padding-top: 287px;
+        padding: 1px 0px;
         color: rgb(223, 54, 54);
-    }
-    
-    .contact h1 {
-        font-size: 30px;
-    }
-    
-    .contact p {
-        color: black;
-        font-size: 16px;
     }
     
     .registration {
         display: flex;
-        padding-right: 185px;
         justify-content: space-between;
         align-items: center;
-        text-align: initial;
-        padding-left: 285px;
-        padding-top: 109px;
-        padding-bottom: 103px;
+        padding: 50px 185px 44px 285px;
     }
     
     .form1 {
         background-color: #fff;
         width: 360px;
         height: 350px;
-        position: relative;
     }
     
     .reglabel1 {
-        padding-top: 50px;
-        text-decoration: underline;
-        color: black;
-        padding-left: 40px;
-    }
-    
-    .reglabel2 {
-        padding-top: 18px;
-        padding-left: 40px;
+        padding: 20px 0px 0px 38px;
         text-decoration: underline;
         color: black;
     }
     
     .reglabel5 {
-        padding-top: 0px;
         padding-left: 163px;
-    }
-    
-    .reglabel5 button {
-        height: 30px;
-        width: 105px;
-        background-color: rgb(249, 192, 155);
-        border: transparent;
-    }
-    
-    .regimage img {
-        width: 360px;
-        height: 350px;
     }
     
     .pol {
         background-color: #fff;
         position: relative;
-        padding: 58px 167px;
+        padding: 40px 220px
     }
     
     .mail {
         background-color: rgb(265, 192, 155);
         position: absolute;
-        padding-top: 31px;
-        padding-bottom: 48px;
-        padding-left: 50px;
-        padding-right: 3px;
-        top: -29px;
+        padding: 4px 2px 40px 45px;
+        top: -56px;
     }
     
     .poly {
         display: flex;
         justify-content: space-between;
-        padding-left: 0px;
-    }
-    
-    .polx {
-        flex: 1;
-        padding-left: 0px;
-        padding-bottom: 10px;
-        padding-top: 0px;
     }
     
     .polbtn {
-        flex: -1;
-        padding-left: 380px;
-        padding-right: 10px;
-        padding-top: 49px;
+        padding: 49px 10px 0px 316px;
     }
     
     .polbtn input {
-        width: 140px;
+        width: 225px;
         height: 35px;
         border: transparent;
         color: rgb(218, 106, 106);
@@ -396,53 +295,34 @@
         color: #fff;
     }
     
-    .mail h3 {
-        color: #fff;
-    }
-    
     .address {
         text-align: center;
         background-color: rgb(245, 192, 155);
-        padding: 0px 0px;
-    }
-    
-    .address h2 {
-        color: #fff;
-        text-decoration: underline;
-        text-transform: uppercase;
-        text-align: center;
-        padding-top: 51px;
+        padding-top: 15px;
     }
     
     .addressicon {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        padding-left: 60px;
         color: blue;
-        padding: 5% 15%;
+        padding: 15px 255px 40px 255px;
         align-items: center;
     }
     
-    .addressicon .fa-map-marker {
-        font-size: 40px;
-        background-color: white;
-        padding: 20px 20px;
+    .icon1 {
+        display: flex;
+        flex-direction: row;
     }
     
-    .addressicon .fa-phone {
-        font-size: 40px;
-        background-color: white;
-        padding: 20px 20px;
+    .fas {
+        background-color: #fff;
+        font-size: 32px;
+        width: 66px;
+        height: 48px;
+        padding-top: 14px;
     }
     
-    .addressicon .fa-envelope {
-        font-size: 40px;
-        background-color: white;
-        padding: 20px 20px;
-    }
-    
-    .addressicon h3 {
+    .addressicon h5 {
         color: rgb(29, 20, 20);
         text-align: initial;
         padding-left: 25px;
